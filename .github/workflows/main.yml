@@ -1,18 +1,6 @@
 on:
   push:
     branches: main
-
-env:
-    DATABASE_URL:{mongodb+srv://rezatahseenfiverr:LbOvkkSytPaVVu9W@text-airdrop.qnxklex.mongodb.net/text_airdrop_db}
-    NEXTAUTH_SECRET:{g+qLLjTzUqyPCwyToVzMY46rHhwDIIm4HIvWlTELpTk=}
-    GITHUB_ID:{466a46889c4abb236108}
-    GITHUB_SECRET:{76309d929b9f303f9524a862022d3e0ee73fd263}
-    GOOGLE_CLIENT_ID:{1098124096940-u815et8k5tcuit0chovoevfs2kj9254p.apps.googleusercontent.com}
-    GOOGLE_CLIENT_SECRET:{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}
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME:{dpknnke3k}
-    NEXT_PUBLIC_PUSHER_APP_KEY:{912b7224e6143de03ed9}
-    PUSHER_APP_ID:{1787151}
-    PUSHER_SECRET:{03e460e3d1bbf06b4314}
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
