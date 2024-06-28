@@ -1,6 +1,12 @@
 on:
   push:
     branches: main
+
+env:
+  DATABASE_URL: ${{ vars.DATABASE_URL }}
+  NEXTAUTH_SECRET: ${{ vars.NEXTAUTH_SECRET }}
+  
+
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
